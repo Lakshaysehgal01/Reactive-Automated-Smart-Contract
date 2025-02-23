@@ -29,13 +29,13 @@ This smart contract is ideal for fitness dApps, decentralized incentives, and We
 
 # Smart Contract Flow
 * sequenceDiagram
-    participant Backend
-    participant RewardsEth
-    participant ReactiveNetwork
-    participant RewardsReactive
-    Backend ->> RewardsEth: Send goal completion request
-    RewardsEth ->> RewardsEth: Set reward for user
-    RewardsEth ->> ReactiveNetwork: Emit `SetReward` Event
-    ReactiveNetwork ->> RewardsReactive: Detects `SetReward`
-    RewardsReactive ->> RewardsEth: Calls `claim()`
-    RewardsEth ->> User: Transfers reward ETH
+    participant Backend <br>
+    participant RewardsEth <br>
+    participant ReactiveNetwork <br>
+    participant RewardsReactive <br>
+    Backend ->> RewardsEth: Send goal completion request <br>
+    RewardsEth ->> RewardsEth: Set reward for user <br>
+    RewardsEth ->> ReactiveNetwork: Emit `SetReward` Event <br>
+    ReactiveNetwork ->> RewardsReactive: Detects `SetReward` <br>
+    RewardsReactive ->> RewardsEth: Calls `claim()` <br>
+    RewardsEth ->> User: Transfers reward ETH 
