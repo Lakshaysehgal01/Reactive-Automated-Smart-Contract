@@ -28,7 +28,7 @@ Trustless Execution – Ensures fair and verifiable reward distribution.
 This smart contract is ideal for fitness dApps, decentralized incentives, and Web3-based reward programs, providing a fully autonomous and reactive blockchain experience.
 
 # Smart Contract Flow
-* sequenceDiagram
+* sequenceDiagram <br>
     participant Backend <br>
     participant RewardsEth <br>
     participant ReactiveNetwork <br>
